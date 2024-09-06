@@ -9,6 +9,17 @@ body {
     color: #0A0A0A;
 }
 
+
+div {
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+    color: #1D3557;
+}
+
+/*Header layouts containing the logo and navigation*/
 header {
     display: flex;
     justify-content: center;
@@ -19,15 +30,6 @@ header {
     width: auto;
     height: auto;
     background-color: #457B9D;
-}
-
-div {
-    text-align: justify;
-}
-
-h1{
-    text-align: center;
-    color: #1D3557;
 }
 
 .navigation{
@@ -77,6 +79,7 @@ h1{
     padding: 10px;
 }
 
+/*Featured photo*/
 .photo{
     display: flex;
     align-items: center;
@@ -94,7 +97,7 @@ h1{
     border-radius: 100%;
 }
 
-
+/*Projects*/
 .projects{
     display: flex;
     align-items: center;
@@ -131,6 +134,7 @@ h1{
     border-radius: 30px;
 }
 
+/*Skills and Autobiography*/
 .skills-about{
     display: grid;
     grid-template-columns: auto auto;
@@ -170,6 +174,7 @@ h1{
     border-radius: 30px;
 }
 
+/*Footer layouts containing the logo and contact details*/
 footer{
     display: flex;
     justify-content: center;
